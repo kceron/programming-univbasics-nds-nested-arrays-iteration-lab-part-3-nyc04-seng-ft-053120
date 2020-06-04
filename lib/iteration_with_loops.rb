@@ -16,13 +16,3 @@ def join_nested_strings(src)
   joined_array.join 
 end
 end 
-
-      longest_string_element = spice_rack[row_index][element_index]
-    end
-    element_index += 1
-  end
-  outer_results << longest_string_element
-  row_index += 1
-end
- 
-outer_results
